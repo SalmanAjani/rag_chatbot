@@ -10,6 +10,10 @@ class Config:
     OPENROUTER_MODEL_NAME = os.getenv("MODEL")
     OPENROUTER_BASE_URL = os.getenv("BASE_URL")
 
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+    GROQ_MODEL_NAME = os.getenv("GROQ_MODEL")
+    GROQ_BASE_URL = os.getenv("GROQ_BASE_URL")
+
     # Embeddings
     EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL")
 
